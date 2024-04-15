@@ -1,0 +1,21 @@
+nav{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: white;
+    padding: 32px 0px;
+}
+
+.container_nav{
+    background-color: #2B3743;
+}
+
+.toggle{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100;
+}

@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(324px, 1fr));
+    justify-items: start;
+    align-items: center;
+    gap: 36px;
+    max-width: 1440px;
+    margin: 56px  auto;
+    
+}
+
+
+.flags{
+    width: 320px;
+    height: 160px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+
+.container_countries{
+    display: flex;
+    flex-direction: column;
+    background-color: #2B3743;
+    border-radius: 6px;
+}
+
+.text{
+    padding: 5px 26px 46px 26px;
+    color: white;
+}
+
+
+.text h1{
+    font-size: 24px;
+}
+
+.text p {
+    font-size: 14px;
+}
+
+.link{
+    text-decoration: none;
+}
